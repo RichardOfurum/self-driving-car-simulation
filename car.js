@@ -15,8 +15,12 @@ class Car{
     }
 
     update(){
-        //Forward and backward
-        if (this.controls.forward) {
+       this.#move();
+    }
+
+    #move(){
+         //Forward and backward
+         if (this.controls.forward) {
             // this.y-=2;
             this.speed+=this.acceleration;
         }
@@ -62,7 +66,6 @@ class Car{
 
         this.x-=Math.sin(this.angle)*this.speed;
         this.y-=Math.cos(this.angle)*this.speed;
-        this.y-=this.speed
     }
 
     draw(ctx){

@@ -1,15 +1,12 @@
 body{
-    background-color: gray;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    text-align: center;
+    margin:0;
+    background:darkgray;
+    overflow:hidden;
+    text-align:center;
 }
-
 #networkCanvas{
     background:black;
 }
-
 #carCanvas{
-    background-color: lightgray;
+    background:lightgray;
 }
